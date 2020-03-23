@@ -44,6 +44,8 @@ def show_roulette(names_arr)
    
     for i in 0..((names_arr.length-1)/4)
         system "clear"
+        # Alternate way to clear screen
+        # puts "\e[H\e[2J"
         print get_random_name(names_arr)
         sleep(0.25)
     end

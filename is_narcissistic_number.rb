@@ -17,6 +17,8 @@ def narcissistic_number(num)
 	return is_narc
 end
 
+# reduce function could have also been used
+
 puts narcissistic_number(153)
 puts narcissistic_number(1634)
 puts narcissistic_number(10)

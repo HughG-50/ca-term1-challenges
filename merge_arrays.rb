@@ -9,7 +9,7 @@ def with_our_powers_combined(arr1, arr2)
 				combined_arr.push(arr1[i])
 				combined_arr.push(arr2[i])
 			else
-				combine_arr.push(arr[i])
+				combine_arr.push(arr1[i])
 			end	
 		end
 		

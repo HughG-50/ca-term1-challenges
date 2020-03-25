@@ -14,6 +14,16 @@ def is_it_a_snake(str)
 	return is_snake
 end
 
+# one liner solution using regex
+# def is_it_a_snake(str)
+# 	str =~ /\A.*(s|S){2}.*\z/ ? true : false
+# end
+
+# other solution
+# def is_it_a_snake(str)
+# 	return str.downcase.include? "ss"
+# end
+
 puts is_it_a_snake("Ssay what?! I'n no snake")
 puts is_it_a_snake("Something sseems a little ssuspect")
 puts is_it_a_snake("Hello there Samantha")

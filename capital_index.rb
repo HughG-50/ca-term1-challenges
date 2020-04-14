@@ -6,7 +6,8 @@ def capital_index(str)
 	output_arr = []
 	str_arr = str.split("")
 	
-	for i in 0..str_arr.length-1
+    for i in 0..str_arr.length-1
+        # Could also use comparator =~
 		if str_arr[i].match(/[A-Z]/)   
 			output_arr.push(i)
 		end
